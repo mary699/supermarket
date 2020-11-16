@@ -3,3 +3,792 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+width: 100%;
+
+}
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* TOP BAR */
+.topbar{
+    /* border: 2px solid red; */
+    height: 45px;
+    background-color: rgba(211, 211, 211, 0.419);
+    display: flex;
+}
+.topbar img{
+    width: 15px;
+    padding-top: 10px;
+}
+.topbar svg{
+    width: 25px;
+    padding-top: 10px;
+}
+.topbar p{
+    font-size: 10px;
+    padding-top: 9px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ .email{
+   padding-top: 950px;
+    font-size: 10px;
+    text-decoration: none;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  
+}
+/* topbar left */
+.topbar-left{
+    /* border: 2px solid blue; */
+    height: 35px;
+    flex: 3;
+    margin-top: 3px;
+    display: flex;
+    
+}
+
+.topbar-left-one{
+    width: 45%;
+    margin-left: 35px;
+    display: flex;
+}
+
+.topbar-left-one-clock{
+    width: 10%;
+}
+
+.topbar-left-one-clocktext{
+        width:75%;
+}
+
+.topbar-left-two{
+    width:45%;
+    display: flex;
+}
+
+.topbar-left-two-social{
+    width: 70%;
+}
+
+.topbar-left-two-socialtext{
+    width: 10%;
+}
+
+
+/* topbar right */
+.topbar-right{
+    height: 35px;
+    flex: 3;
+    margin-top: 3px;
+    display: flex;
+}
+.topbar-right-one{
+    width: 45%;
+    margin-left: 50px;
+    display: flex;
+}
+.topbar-right-one-email{
+    width: 12%;
+}
+.topbar-right-one-emailcontact{
+    width: 85%;
+}
+
+.topbar-right-two{
+    width:45%;
+    display: flex;
+   
+}
+.topbar-right-two-phone{
+    width: 15%;
+}
+.topbar-right-two-phoneno{
+    width:75%;
+}
+
+
+
+/* TOP BAR  ENDS HERE*/
+
+
+/* ----------NAVIGATION */
+.nav{
+    border-bottom: 1px solid blue;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+
+}
+.logo{
+   
+    float: left;
+    margin: 0px 0px 0px 30px;
+
+}
+.logo img{
+    width: 50px;
+    height: 55px;
+    margin-top: 10px;
+}
+.menu{
+    margin: 0 100px 0 0;
+ 
+  
+
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+    margin: 0 10px;
+    line-height: 70px;
+    clear: right;
+    
+}
+
+.menu a:hover{
+    color: red;
+}
+span{
+    color: red;
+}
+span:hover{
+    color: blue;
+}
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle{
+    display: none;
+}
+/* ----------NAVIGATION   ENDS HERE*/
+
+
+
+/* BANNER SLIDER */
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 30s infinite;
+}
+.load{
+    animation: slide 2s;
+}
+.content{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.principal{
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+.principal h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.principal span{
+    color: red;
+    font-size: 30px;
+}
+.principal p{
+    font-size: 20px;
+
+}
+@keyframes slide{
+
+0%{
+    background-image: url("./image/plainbg.png");
+}
+
+20%{
+    background-image: url("./image/plainbg.png");
+}
+20.01%{
+    background-image: url("./image/bgtwo.png");
+}
+
+40%{
+    background-image: url("./image/bgtwo.png");
+}
+40.01%{
+    background-image: url("./image/plainbg.png");
+}
+
+60%{
+    background-image: url("./image/plainbg.png");
+}
+60.01%{
+    background-image: url("./image/plainbg.png");
+}
+
+80%{
+    background-image: url("./image/plainbg.png");
+}
+80.01%{
+    background-image: url("./image/bgtwo.png");
+}
+
+100%{
+    background-image: url("./image/bgtwo.png");
+}
+
+}
+
+/* *************BANNER  ENDS HERE*/
+
+/* WELCOME SECTION   STARTS*/
+.welcome-div{
+    height: 50vh;
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.589);
+    
+}
+.welcome-left{
+    flex: 3;
+
+}
+
+.welcome-left h1{
+    text-align: center;
+    padding-top: 15%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: red;
+}
+.welcome-left h2{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: red;
+
+}
+.welcome-right{
+    flex: 3;
+
+}
+.welcome-right-content{
+    height: 45vh;
+    margin: 10px;
+}
+
+.welcome-right-content h2{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: blue;
+
+}
+
+.welcome-right-content p {
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5rem;
+    margin-top: 10px;
+    padding: 5px;
+}
+/* WELCOME SECTION  ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* about SECTION   STARTS*/
+
+/* about SECTION  ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SALE SECTION   STARTS*/
+
+.sale-section{
+    border: 2px solid red;
+    height: 100vh;
+    display: block;
+}
+
+.sale-section-top{
+    border: 2px solid blue;
+    height: 15vh;
+
+}
+
+.sale-section-top h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+}
+.sale-section-bottom{
+    /* border: 2px solid black; */
+    height:85vh;
+
+
+}
+.sale-contentfirst{
+    display: flex;
+
+    height:40vh;
+
+}
+
+.sale-contentsecond{
+    display: flex;
+    height:40vh;
+    margin-top: 8px;
+
+}
+.sale-content1{
+    box-shadow: 2px 2px 12px rgba(41, 33, 33, 0.2);
+    flex: 2.5;
+    margin-right: 5px;
+    margin-left: 5px;
+
+
+} 
+
+.sale-content2{
+    box-shadow: 2px 2px 12px rgba(41, 33, 33, 0.2);
+    flex: 2.5;
+    margin-right: 5px;
+    margin-left: 5px;
+} 
+
+
+
+
+
+/* SALE SECTION  ENDS*/
+
+
+
+
+
+
+
+
+
+
+
+/* styling for midtwo */
+.midtwo{
+    height: 200px; 
+    background-color: #8491a09c;
+}
+.midtwo_box{
+    margin: auto;
+    width: 40%;
+    height: 100px;
+    display: block;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.midtwo_box-one{
+height: 25px;
+
+}
+.midtwo_box-one p{
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: Futura;
+    text-align: center;
+    
+}
+
+.midtwo_box-two{
+    height: 80px;
+    display: flex;
+}
+.midtwo_box-two-googleplay{
+padding-left: 95px;
+padding-top: 20px;
+}
+.midtwo_box-two-appstore{  
+ padding-top: 20px;
+  }
+
+
+
+.midtwo_box-three{
+    height: 20px; 
+    
+}
+.midtwo_box-three a{
+    text-decoration: none;
+    font-family: Futura;
+    font-size: 13px;
+    color: #10150C;
+    text-align: center;
+}
+.midtwo_box-three p{
+    text-decoration: none;
+    font-family: Futura;
+    font-size: 13px;
+    color: #10150C;
+    text-align: center;
+   
+    
+}
+/* styling for midtwo ends here */
+
+
+
+
+
+
+/* styling for midthree starts */
+.midthree{
+    /* border: 2px solid purple;  */
+    height: 255px; 
+    background-image: url("images/bgimg-one.svg");
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+  
+    
+}
+.lineall{
+    margin: auto;
+    display: flex;
+    height: 210px;
+    margin: 20px  100px 20px 100px;
+   
+}
+.lineone{
+    display: block;
+    width: 150px;
+    margin-right: 21px;
+    
+
+}
+.item1{
+    margin-top: 20px;
+}
+.item2{
+    margin: 20px 0px;
+}
+.item3{
+  margin-bottom: 20px;  
+}
+
+
+/* styling linetwo */
+
+.linetwo{
+    width: 150px;
+    margin-right: 21px;
+    margin-left: 37px;
+
+}
+
+ul{
+    padding-top: 15px;
+    list-style-type: none;
+
+}
+ul li{
+    padding-top: 15px;
+}
+
+/* styling linetwo ends here */
+
+
+
+.linethree{
+    width: 150px;
+    margin-right: 21px;
+    margin-left: 37px;
+}
+
+ul{
+    padding-top: 15px;
+    list-style-type: none;
+
+}
+ul li{
+    padding-top: 15px;
+}
+
+
+.linefour{
+    
+    display: block;
+    width: 150px;
+    margin-right: 21px;
+    margin-left: 37px;
+
+}
+ul{
+    padding-top: 15px;
+    list-style-type: none;
+
+}
+ul li{
+    padding-top: 15px;
+}
+
+
+.linefive{
+   
+    display: block;
+    width: 150px;
+
+}
+ul{
+    padding-top: 15px;
+    list-style-type: none;
+
+}
+ul li{
+    padding-top: 15px;
+}
+.picture{
+    padding: 35px 0px;
+}
+
+
+/* styling for midthree ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------- MEDIA QUERY ----------*/
+@media (max-width: 600px){
+
+    .topbar{
+        width: 100%;
+    }
+    
+    
+    .topbar-left{
+    margin: 0px;
+    }
+    .topbar-left-one{
+        margin: 0px;
+        width: 30%;
+        
+    }
+    .topbar-left-two{
+        width: 70%;
+    }
+    
+    
+    .topbar-right{
+      margin: 0px;
+    }
+    .topbar-right-one{
+        width: 30%;
+        margin-left: 80px;
+    }
+    .topbar-right-two{
+       width: 30%;
+       margin: 0px;
+    
+    }
+    
+    .topbar-left-one-clocktext{
+        display: none;
+    }
+    .topbar-left-two-socialtext{
+        display: none;
+    }
+    .topbar-right-one-emailcontact{
+        display: none;
+    }
+    .topbar-right-two-phoneno{
+        display: none;
+    }
+    
+    
+    .topbar-left-one-clock{
+        width:  100%;
+        margin-left: 20px;
+     
+    }
+    .topbar-left-two-social{
+        width: 100%;
+       
+    }
+    .topbar-right-one-email{
+        width:  100%;
+        
+    }
+    .topbar-right-two-phone{
+        width:  100%;
+    
+    }
+    
+    
+    
+    /* TOPBAR ENDS HERE */
+    
+        label{
+            display: block;
+            cursor: pointer;
+        }
+    
+        .logo{
+            float: left;
+            margin: 0px;
+            height: 65px;
+        
+        }
+        .logo img{
+            width: 50px;
+            height: 50px;
+         
+        }
+    
+        .menu{
+            text-align: center;
+            width: 100%;
+            display: none;
+        }
+        .menu a{
+            display: block;
+            border-bottom: 1px solid white;
+            margin: 1px;
+            background-color: blue;
+            color: white;
+        }
+        #toggle:checked + .menu{
+            display: block; 
+        }
+    
+    /* NAVIGATION ENDS HERE */
+   
+    /* ---BANNER STARTS HERE */
+    
+    .slider{
+        margin-top: 360px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        animation: slide 30s infinite;
+        }
+        .load{
+            animation: slide 2s;
+        }
+        .content{
+            color: white;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.5);
+            }
+            .principal{
+            left: 50%;
+            top: 70%;
+            transform: translate(-50%,-50%);
+            position: absolute;
+            text-align: center;
+            letter-spacing: 5px;
+            
+            }
+            .principal h1{
+                font-size: 16px;
+                margin-bottom: 10px;
+                margin-top: 750px;
+            }
+            .principal p{
+                font-size: 12px;
+                letter-spacing: 3px;
+
+            }
+            .principal span{
+                color: white;
+                font-size: 16px;
+            }
+            /*--------WELCOME SECTION*/
+            .welcome-div{
+                height: 80vh;
+
+                display: block;
+            }
+            .welcome-left{
+                border: 2px solid red;
+            }
+            .welcome-left h1{
+                text-align: center;
+                padding-top: 5%;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                color: red;
+            }
+            .welcome-left h2{
+                text-align: center;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                color: red;
+            
+            }
+            .welcome-right-content h2{
+                font-size: 16px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-align: center;
+                color: blue;
+            }
+            
+            .welcome-right-content p {
+                font-size: 12px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                line-height: 1.5rem;
+                margin-top: 10px;
+                padding: 5px;
+            }
+        }

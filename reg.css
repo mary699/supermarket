@@ -20,7 +20,6 @@ body{
 }
 
 .container-text{
-    /* border: 2px solid blue; */
     height: 10vh;
 
 }
@@ -41,7 +40,6 @@ body{
 form{
     width: 80%;
     margin: auto;
-    border: 2px solid red;
 }
 
 label{
@@ -86,33 +84,140 @@ select option:focus{
     font-weight: bolder;
 }
 .buttons{
-   width: 50%;
-   margin: auto;
-   border: 2px solid blue;
+    margin-left:31% ;
+    margin-top: 5px;
    display: flex;
+
+
 }
 
 .btn-one{
     width: 100%;
-    font-size: 14px;
-    padding: 3px;
+    font-size: 13px;
+    padding: 8px;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    cursor: pointer;
 }
-
+.btn-one:hover{
+    background-color: rgba(255, 0, 0, 0.479);
+    color: white;
+}
 .btn-two{
     width: 100%;
-    font-size: 14px;
-    padding: 3px;
+    font-size: 13px;
+    padding: 8px;
+    font-weight: bolder;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: gainsboro;
+    margin-left: 35%;
+cursor: pointer;
 
 
+}
+
+.btn-two:hover{
+    background-color: rgba(0, 0, 255, 0.452);
+    color: white;
+}
+
+
+/* ------MEDIA QUERY FOR ITS MOBILE RESPONSIVENESS*/
+@media (max-width: 600px){
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        background-position: center;
+    }
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        height: 160vh;
+        background-color: #145eac8e;
+        margin: 7%;
+        display: block;
+    
+
+}
+.container-text h1{
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    font-weight: bolder;
+}
+
+
+form{
+    margin: 0px;
+    padding-left: 20px;
+    width: 100%;
 }
 
 
 
 
-/* ------MEDIA QUERY */
-@media (max-width: 600px){
+label{
+    display: block;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+input{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 98%;
+    line-height: 1.5rem;
+    padding-left: 3px;
+    background-color: rgba(128, 128, 128, 0.357);
+    border: none;
+    outline: none;
+}
+input:focus{
+    background-color: white;
+}
+select{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 98%;
+    padding: 6px 3px;
+    font-size: 12px;
+    color: rgba(49, 32, 32, 0.774);
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    background-color: rgba(128, 128, 128, 0.357);
+}
+
+select option:focus{
+    background-color: white;
+}
+
+::placeholder{
+    font-size: 10px;
+    color: rgba(49, 32, 32, 0.774);
+    font-weight: bolder;
+}
 
 
 
+.buttons{
+    margin: 0px;
+    padding-left: 20px;
 
+}
+.btn-one:hover{
+    background-color: rgba(255, 0, 0, 0.479);
+    color: white;
+}
+.btn-two:hover{
+    background-color: rgba(0, 0, 255, 0.452);
+    color: white;
+}
 }
