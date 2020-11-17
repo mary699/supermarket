@@ -339,60 +339,60 @@ label{
 
 
 
-/* SALE SECTION   STARTS*/
+/* product SECTION   STARTS*/
 
-.sale-section{
+.product-section{
     border: 2px solid red;
-    height: 100vh;
+    height: 150vh;
     display: block;
 }
 
-.sale-section-top{
+.product-section-top{
     border: 2px solid blue;
     height: 15vh;
 
 }
 
-.sale-section-top h1{
+.product-section-top h1{
     text-align: center;
     font-size: 38px;
     font-weight: lighter;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
 }
-.sale-section-bottom{
+.product-section-bottom{
     /* border: 2px solid black; */
-    height:85vh;
+    height:130vh;
 
 
 }
-.sale-contentfirst{
+.product-contentfirst{
     display: flex;
 
-    height:40vh;
+    height:50vh;
 
 }
 
-.sale-contentsecond{
+.product-contentsecond{
     display: flex;
-    height:40vh;
-    margin-top: 8px;
+    height:50vh;
+    margin-top: 40px;
 
 }
-.sale-content1{
-    box-shadow: 2px 2px 12px rgba(41, 33, 33, 0.2);
+.product-content1{
+    box-shadow: 2px 2px 12px rgba(8, 8, 8, 0.6);
     flex: 2.5;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
 
 
 } 
 
-.sale-content2{
-    box-shadow: 2px 2px 12px rgba(41, 33, 33, 0.2);
+.product-content2{
+    box-shadow: 2px 2px 12px rgba(8, 8, 8, 0.6);
     flex: 2.5;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
 } 
 
 
